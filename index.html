@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Document</title>
+</head>
+<body>
+    <img src="wallpaper.jpg" id="background">
+    <form>
+        <div class="buttons">
+        <ul>
+            <li>
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Your First Name" minlength=1>
+            </li>
+            <li>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com">
+            </li>
+            <li>
+                <label for="pwd">Password</label>
+                <input type="password" id="pwd" name="pwd" placeholder="7-20 Characters" minlength=7 maxlength=20>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Your Last Name" minlength=1>
+            </li>
+            <li>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="###-###-####">
+            </li>
+            <li>
+                <label for="confirmpwd">Confirm Password</label>
+                <input type="password" id="pwd" name="pwd" placeholder="7-20 Characters" minlength=7 maxlength=20>
+            </li>
+        </ul>
+        </div>
+        <button class="submit" type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
